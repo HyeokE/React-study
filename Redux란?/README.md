@@ -69,7 +69,7 @@ import {Provider} from 'react-redux';
 import {createStore} from 'redux';
 import {useState} from 'react';
 
-const[name, setName] = useState('David');
+const[name, setName] = useState({id: 0,name:'David'});
 
 let store = createStore(()=> {return  name })
 
@@ -108,10 +108,7 @@ function getState(state){
 }
 ```
 `return{}`안에 `김치 : state` 이렇게 적으면 `index.js`에서 등록한 `store`의 모든 `state`가 `김치 props`로 등록됩니다.
-```
-만약 `store`에 `{id : 0, name : 'David'} ` 와 같은 `array`를 넣으셨다면 
-`state.name`과 같이 지정한 데이터를 `props`로 등록할 수도 있습니다.
-```
+
 
 4. `export default Test`를 `export default connect(원하는 함수명)(현재 컴포넌트 명)`으로 변경해줍니다.
 
