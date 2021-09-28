@@ -1,6 +1,8 @@
 # Redux란?
 
 
+React는 props를 보다 편하게 관리하기 위한 라이브러리입니다.
+
 #### if) Redux를 사용하지 않는다면? 
 
 각 컴포넌트 마다 `props -> props -> props `로 전달해야하죠.
