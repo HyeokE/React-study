@@ -5,10 +5,10 @@
 ## React란?
 
 
-### 1. [React란?](React란%3F/README.md)
-### 2. [왜 React인가](%5BReact.js%5D-Why-React%3F/README.md)
-### 3. [React 세팅하기](%5BReact%5D-Setting/README.md)
-### 4. [JSX사용법](%5BReact%5D-JSX-Start/README.md)
+#### - [React란?](React란%3F/README.md)
+#### - [왜 React인가](%5BReact.js%5D-Why-React%3F/README.md)
+#### - [React 세팅하기](%5BReact%5D-Setting/README.md)
+### 1. [JSX사용법](%5BReact%5D-JSX-Start/README.md)
 
 ## Redux란?
 
