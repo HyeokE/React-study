@@ -12,9 +12,7 @@
 
 ## Redux란?
 
-
 React는 props를 보다 편하게 관리하기 위한 라이브러리입니다.
-
 
 ### 1. [Redux- 기본 세팅, state값 불러오기](Redux/Redux란%3F/README.md)
 
