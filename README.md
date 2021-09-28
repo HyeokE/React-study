@@ -4,7 +4,6 @@
 
 ## React란?
 
---
 
 ### 1. [React란?](React란%3F/README.md)
 ### 2. [왜 React인가](%5BReact.js%5D-Why-React%3F/README.md)
@@ -13,7 +12,6 @@
 
 ## Redux란?
 
---
 
 React는 props를 보다 편하게 관리하기 위한 라이브러리입니다.
 
