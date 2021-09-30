@@ -17,7 +17,7 @@ function App(){
 
 ### 이제 상단의 `nav`를 만들어봅시다.
 
---
+---
 ```javascript
 function App(){
   return (
@@ -49,9 +49,9 @@ React 에서 `class`를 사용하고 싶으실 때 사용하면 됩니다.
 
 HTML과 기능은 동일합니다.
 
---
+
 이 모든 것들이 JSX입니다.
---
+
 
 ### React에서 데이터바인딩하기
 
@@ -81,7 +81,6 @@ React에서는 데이터를 가져올 때 `{}`를 사용합니다.
 
 EX) `<div className={data}>안녕</div>`
 
----
 
 ## 만약 HTML에 스타일을 직접 넣고 싶다면 이렇게 하세요
 
