@@ -32,31 +32,15 @@ const Component = () => {
 
 `id`는 `Array`의 몇 번째 자료인지 알려줍니다.
 
-```javascript
+`JAVA`의 `for`문으로는 아래와 같이 표현할 수 있습니다
+
+```js
 for (int i = 0; i < array.length(); i++){
-    array[0]
+    System.out.println(array[0]);
 }
 ```
 
-`for`문과 같은 방식이라고 생각하면 됩니다.
-
-```javascript
-const Component = () => {
-    const [Array, setArray] = useState(["apple", "apple1", "apple2"])
-    return(
-        <div>
-            {Array.map( (받은자료, id) => {
-                <div key={id}>{받은자료}</div>
-            })}
-        </div>
-    )
-}
-```
-
-
-위와 같이 사용할 수 있습니다.
-
-### if) `map`을 사용하지 않는다면 
+### if) `map`을 사용하지 않는다면
 
 ```javascript
 const Component = () => {
@@ -71,3 +55,35 @@ const Component = () => {
 }
 ```
 이렇게 작성할 수 있습니다.
+
+### `map`을 사용해봅시다.
+
+```javascript
+const Component = () => {
+    const [Array, setArray] = useState(["apple", "apple1", "apple2"])
+    return(
+        <div>
+            {Array.map( (받은자료, id) => {
+                <div key={id}>{받은자료}</div>
+            })}
+        </div>
+    )
+}
+```
+
+### + map으로 `array`수정하기
+
+
+```javascript
+const Component = () => {
+    const [Array, setArray] = useState([{id: 1, name:"apple"},{id: 2, name: "apple1"},{id : 3, name: "apple2"}])
+    return(
+        <div>
+            {Array.map( (받은자료, id) => {
+                <div key={id}>{받은자료.name}</div>
+            })}
+        </div>
+    )
+}
+```
+
